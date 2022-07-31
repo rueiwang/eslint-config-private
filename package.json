@@ -1,0 +1,15 @@
+{
+  "name": "@rueiwang/eslint-config-private",
+  "version": "1.0.0",
+  "description": "eslint rules for developing habit with Vue3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ruei.wang",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.15.0",
+    "eslint-plugin-vue": "^9.0.1"
+  }
+}
