@@ -2,7 +2,8 @@ module.exports = {
     root: true,
     env: {
         node: true,
-        browser: true
+        browser: true,
+        'vue/setup-compiler-macros': true
     },
     extends: [
         'plugin:vue/vue3-recommended'
@@ -18,7 +19,7 @@ module.exports = {
         }
     ],
     plugins: ['plugin:vue/vue3-recommended'],
-    rule: {
+    rules: {
         'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
         'no-unused-vars': "error",
